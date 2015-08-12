@@ -1,0 +1,7 @@
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  margin-bottom: 20%;
+  background-color: ivory;
+}
