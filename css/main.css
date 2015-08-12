@@ -1,7 +1,26 @@
-.sticky {
+
+
+body {
+  padding-top:;
+}
+
+h1 {
   position: fixed;
+  font-family: sans-serif;
+  color: #0a105c;
+  background-color: #cdc5ff;
   width: 100%;
-  top: 0px;
-  margin-bottom: 20%;
-  background-color: ivory;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
+svg {
+  padding-top: 50px;
+  height: 100px;
+
+}
+
+.mainNav {
+  list-style: none;
 }
