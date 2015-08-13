@@ -4,12 +4,14 @@ body {
   padding-top:;
 }
 
+
 h1 {
   position: fixed;
   text-align: center;
   font-family: sans-serif;
   color: #0a105c;
   background-color: #cdc5ff;
+  opacity: .7;
   width: 100%;
   margin: 0;
   top: 0;
@@ -21,11 +23,36 @@ h1 {
 }
 
 svg {
-
   padding-top: 50px;
   height: 100px;
 }
 
-.mainNav {
-  list-style: none;
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+img {
+  float: left;
+  padding-top:;
+  width: 25%;
+  height: 25%;
+}
+
+article {
+  width: 90%;
+  overflow: auto;
+  padding: 20px;
+  display: table;
+}
+
+
+/*.flexcontainer {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}*/
+
+.content {
+  overflow: auto;
 }
