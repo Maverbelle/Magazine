@@ -1,8 +1,5 @@
 /* Responsive design for small or large portrait orientation */
 
-body {
-  padding-top:;
-}
 
 .title {
   position: fixed;
@@ -18,12 +15,19 @@ body {
 
 .logo {
   text-align: center;
-  top: 10px;
+
 }
 
 svg {
-  padding-top: 50px;
-  height: 100px;
+  height: 200px;
+}
+
+svg::before {
+display: block;
+content: " ";
+height: 20px;
+margin-top: -2.5rem;
+visibility: hidden;
 }
 
 .mainNavflex {
@@ -47,6 +51,7 @@ article {
   overflow: auto;
   padding: 20px;
   display: table;
+  clear: both;
 }
 
 
@@ -55,10 +60,6 @@ article {
   flex-flow: row wrap;
   justify-content: space-around;
 }*/
-
-.content {
-  overflow: auto;
-}
 
 
 
@@ -69,24 +70,51 @@ article {
   and (max-width: 1024px)
   and (orientation:landscape) {
 
+      .sidebar {
+    background-color: #cdc5ff;
+          }
+
       .mainNavflex {
         position: fixed;
         float: left;
         text-align: left;
+        left: 5%;
+        top: 48%;
+        float:left;
+      }
+
+      nav {
+        max-width: 25rem;
+        position:fixed;
+        float:left;
+        overflow:auto;
+        margin-left: ;
+        margin-right: 1rem;
+        margin-top: 1rem;
       }
 
       .logo {
         float: left;
+        position: fixed;
+        left: 5%;
+        top: 8%;
       }
 
       .title {
         float: left;
         text-align: left;
         background-color: transparent;
+        top: 18%;
+        left: 13%;
+        opacity: 1.0;
+        font-size: 0.65em;
       }
 
-      .content {
-        float: right;
-      }
+      .content{
+        margin-left:21rem;
+        margin-top: 5rem;
+        margin-right:1.25rem;
+  }
+
 
     }
