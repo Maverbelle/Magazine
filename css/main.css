@@ -22,17 +22,17 @@ svg {
   height: 200px;
 }
 
-svg::before {
-display: block;
-content: " ";
-height: 20px;
-margin-top: -2.5rem;
-visibility: hidden;
+
+.emptycontainer {
+  height: 6rem;
+  width: 100%
+  visibility: hidden;
 }
 
 .mainNavflex {
   display: flex;
   justify-content: center;
+  margin-top: -35px;
 }
 
 ul {
@@ -70,9 +70,10 @@ article {
   and (max-width: 1024px)
   and (orientation:landscape) {
 
-      .sidebar {
+    /*  .sidebar {
     background-color: #cdc5ff;
-          }
+          } */
+
 
       .mainNavflex {
         position: fixed;
@@ -84,7 +85,7 @@ article {
       }
 
       nav {
-        max-width: 25rem;
+        width: 25rem;
         position:fixed;
         float:left;
         overflow:auto;
