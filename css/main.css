@@ -42,7 +42,7 @@ svg {
 .mainNavflex {
   display: flex;
   justify-content: center;
-  margin-top: -35px;
+  margin-top: -10px;
   font-family: sans-serif;
   font-size: 1.2em;
 }
@@ -100,15 +100,21 @@ article {
   and (max-width: 1024px)
   and (orientation:landscape) {
 
+    @font-face{
+       font-family: "Action_Man";
+       src: url(Action_Man.ttf);
+     }
 
-
+  h1 {
+    font-family: 'Roboto', sans-serif;
+  }
 
       .mainNavflex {
         position: fixed;
         float: left;
         text-align: left;
         left: 5%;
-        top: 48%;
+        top: 55%;
         float:left;
       }
 
@@ -119,7 +125,7 @@ article {
         overflow:auto;
         margin-left: ;
         margin-right: 1rem;
-        margin-top: 1rem;
+        margin-top: 45px;
       }
 
       .logo {
@@ -127,6 +133,10 @@ article {
         position: fixed;
         left: 5%;
         top: 8%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #888888;
+
       }
 
       .title {
@@ -142,7 +152,9 @@ article {
       .content{
         margin-left:25rem;
         margin-top: 5rem;
+  }
 
+  svg {
 
   }
 
