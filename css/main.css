@@ -100,14 +100,6 @@ article {
   and (max-width: 1024px)
   and (orientation:landscape) {
 
-    @font-face{
-       font-family: "Action_Man";
-       src: url(Action_Man.ttf);
-     }
-
-  h1 {
-    font-family: 'Roboto', sans-serif;
-  }
 
       .mainNavflex {
         position: fixed;
