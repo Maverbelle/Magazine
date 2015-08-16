@@ -33,8 +33,6 @@ svg {
   height: 200px;
 }
 
-
-
 .emptycontainer {
   height: 8rem;
   width: 100%
@@ -48,6 +46,14 @@ svg {
   font-family: sans-serif;
   font-size: 1.2em;
 }
+
+.anchor{
+  display: block;
+  height: 150px; /*same height as header*/
+  margin-top: -150px; /*same height as header*/
+  visibility: hidden;
+}
+
 
 
 
