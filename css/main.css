@@ -21,7 +21,7 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-  font-size: 1.5em;
+  font-size: 0.9em;
 }
 
 .logo {
@@ -100,7 +100,6 @@ article {
   and (max-width: 1024px)
   and (orientation:landscape) {
 
-
       .mainNavflex {
         position: fixed;
         float: left;
@@ -146,9 +145,24 @@ article {
         margin-top: 5rem;
   }
 
-  svg {
 
-  }
+  img:nth-child(odd) {
+        float:right;
+    }
 
+
+      }
+
+      @media (min-width: 768px)
+        {
+
+      @font-face {
+        font-family: "actionman";
+        src:url(Action_Man-webfont.ttf);
+      }
+
+        h1 {
+        font-family: 'actionman', sans-serif;
+      }
 
     }
