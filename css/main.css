@@ -97,11 +97,13 @@ article {
   and (max-width: 1024px)
   and (orientation:landscape) {
 
-      img:nth-of-type(odd) {
+      article:nth-of-type(odd) .pic {
         float: right;
       }
 
-
+      article:nth-of-type(even) .pic {
+        float: left;
+      }
 
       .mainNavflex {
         position: fixed;
