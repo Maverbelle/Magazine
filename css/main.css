@@ -146,15 +146,13 @@ article {
   }
 
 
-  img:nth-child(odd) {
+  img:nth-of-type(odd) {
         float:right;
     }
 
 
       }
 
-      @media (min-width: 768px)
-        {
 
       @font-face {
         font-family: "actionman";
