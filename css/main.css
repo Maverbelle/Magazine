@@ -54,9 +54,6 @@ svg {
   visibility: hidden;
 }
 
-
-
-
 ul {
   list-style-type: none;
 }
@@ -100,6 +97,14 @@ article {
   and (max-width: 1024px)
   and (orientation:landscape) {
 
+      article:nth-of-type(odd) .pic  {
+        float: right;
+      }
+
+      article:nth-of-type(even) .pic  {
+        float: left;
+      }
+
       .mainNavflex {
         position: fixed;
         float: left;
@@ -140,15 +145,10 @@ article {
         font-size: 0.65em;
       }
 
-      .content{
+      .content {
         margin-left:25rem;
         margin-top: 5rem;
-  }
-
-
-  img:nth-of-type(odd) {
-        float:right;
-    }
+      }
 
 
       }
