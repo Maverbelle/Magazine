@@ -21,24 +21,23 @@ body {
 }
 
 .logoDiv {
-  z-index: 110;
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+  background-color: green;
+  z-index: 20;
 }
 
 .logo {
   height: 100px;
+  text-align: center;
+  top: -170px;
 }
 
 .button {
   height: 20px;
   padding: 10px;
 }
-
-/*.emptycontainer {
-  height: 11rem;
-  width: 100%
-  visibility: hidden;
-  z-index: 80;
-}*/
 
 .mainNavflex {
   display: flex;
@@ -47,10 +46,10 @@ body {
   margin-left: -290px;
   width: 280px;
   height: 100%;
-  z-index: -10;
   font-family: sans-serif;
   font-size: small;
   background-color: ivory;
+  z-index: -10;
 
 }
 
@@ -59,9 +58,10 @@ position: relative;
 height: 100%
 margin-top: 15px;
 width: 100%;
-z-index: ;
 left: 150px;
 transition: all .7s ease;
+background-color: white;
+z-index: 20;
 }
 
 .off {
@@ -96,7 +96,6 @@ img {
   padding-top:;
   width: 25%;
   height: 25%;
-  z-index: -10;
 }
 
 article {
@@ -113,6 +112,7 @@ footer {
   width: 100%;
   background-color:#cdc5ff;
   left: 0;
+  z-index: 100;
 }
 
 .menu {
@@ -122,13 +122,13 @@ footer {
 }
 
 article:first-of-type {
-  margin-top: 3rem;
+  margin-top: 4.5rem;
 }
 
 @media only screen
 and (max-width: 250px) {
   img {
-    visibility: 
+    visibility:
   }
 }
 
